@@ -1,0 +1,10 @@
+body {
+    background-image: url("mur.png");
+    background-position: center; 
+    margin: 0;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+}
