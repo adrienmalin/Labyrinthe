@@ -1,0 +1,42 @@
+{
+  "short_name": "Labyrinthe",
+  "name": "Labyrinthe",
+  "description": "Trouveras-tu le fromage ?",
+  "icons": [
+    {
+      "src": "mur.png",
+      "type": "image/png",
+      "sizes": "15x15"
+    },
+    {
+      "src": "thumbnail.png",
+      "type": "image/png",
+      "sizes": "250x250"
+    }
+  ],
+  "start_url": "index.html",
+  "background_color": "#c55818",
+  "display": "standalone",
+  "scope": "index.html",
+  "theme_color": "#c55818",
+  "shortcuts": [
+    {
+      "name": "Labyrinthe",
+      "short_name": "Labyrinthe",
+      "description": "Trouveras-tu le fromage ?",
+      "url": "index.html",
+      "icons": [
+        {
+            "src": "mur.png",
+            "type": "image/png",
+            "sizes": "15x15"
+        },
+        {
+            "src": "thumbnail.png",
+            "type": "image/png",
+            "sizes": "250x250"
+        }
+      ]
+    }
+  ]
+}
