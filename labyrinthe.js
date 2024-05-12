@@ -29,14 +29,14 @@ const MOUVEMENT = {
 };
 
 const ACTIONS = {
-    'ArrowUp': { 'direction': DIRECTION.HAUT, 'mouvement': MOUVEMENT.HAUT },
-    'z': { 'direction': DIRECTION.HAUT, 'mouvement': MOUVEMENT.HAUT },
-    'ArrowDown': { 'direction': DIRECTION.BAS, 'mouvement': MOUVEMENT.BAS },
-    's': { 'direction': DIRECTION.BAS, 'mouvement': MOUVEMENT.BAS },
-    'ArrowLeft': { 'direction': DIRECTION.GAUCHE, 'mouvement': MOUVEMENT.GAUCHE },
-    'q': { 'direction': DIRECTION.GAUCHE, 'mouvement': MOUVEMENT.GAUCHE },
+    'ArrowUp'   : { 'direction': DIRECTION.HAUT, 'mouvement': MOUVEMENT.HAUT },
+    'z'         : { 'direction': DIRECTION.HAUT, 'mouvement': MOUVEMENT.HAUT },
+    'ArrowDown' : { 'direction': DIRECTION.BAS, 'mouvement': MOUVEMENT.BAS },
+    's'         : { 'direction': DIRECTION.BAS, 'mouvement': MOUVEMENT.BAS },
+    'ArrowLeft' : { 'direction': DIRECTION.GAUCHE, 'mouvement': MOUVEMENT.GAUCHE },
+    'q'         : { 'direction': DIRECTION.GAUCHE, 'mouvement': MOUVEMENT.GAUCHE },
     'ArrowRight': { 'direction': DIRECTION.DROITE, 'mouvement': MOUVEMENT.DROITE },
-    'd': { 'direction': DIRECTION.DROITE, 'mouvement': MOUVEMENT.DROITE },
+    'd'         : { 'direction': DIRECTION.DROITE, 'mouvement': MOUVEMENT.DROITE },
 };
 
 const TYPE = {
@@ -222,8 +222,4 @@ window.onload = function () {
         dessinerTuile(ctx, fromage, labyrinthe.positionFinale.x, labyrinthe.positionFinale.y);
         souris.dessiner();
     }, 40);
-
-    if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('service-worker.js');
-    }
 };
